@@ -1,0 +1,17 @@
+{
+  "Name": "jacob_222",
+  "HostRootPath": "/workspace/shared/bench/222/results",
+  "HostResultsDir": "jacob_222",
+  "DevicePath": "/data/local/tmp/snpebm_222",
+  "Devices": ["c2a27d47"],
+  "Runs": 10,
+  "Model": {
+    "Name": "jacob_222",
+    "Dlc": "/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc",
+    "Data": ["/workspace/shared/bench/222/subsets/test20"],
+    "InputList": "/workspace/shared/bench/222/lists/jacob_test20.txt"
+  },
+  "Runtimes": ["CPU"],
+  "BufferTypes": ["float", "ub_float"],
+  "Measurements": ["timing", "mem"]
+}

@@ -1,0 +1,49 @@
+SNPE SDK version:,unparsed
+
+Configuration used:
+Name,jacob_222
+HostRootPath,/workspace/shared/bench/222/results
+HostResultsDir,/workspace/shared/bench/222/jacob_222
+DevicePath,/data/local/tmp/snpebm_222
+Devices,c2a27d47
+HostName,localhost
+Runs,10
+Model:Name,jacob_222
+Model:Dlc,/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+Model:UDO,
+Model:InputList,jacob_test20.txt
+Model:Data,/workspace/shared/bench/222/subsets/test20
+Model:InputDimensions,
+Runtimes,"CPU,CPU_ub_float"
+Architectures,aarch64
+Compiler,gcc8.2
+C++ Standard Library,
+Measurements,"timing,mem"
+PerfProfile,high_performance
+ProfilingLevel,basic
+Date,2026-10-27 20:40:53.928298
+
+Device Info:
+ro.product.name,unknown
+ro.serialno,unknown
+ro.product.model,unknown
+ro.product.board,unknown
+ro.product.brand,unknown
+ro.product.device,unknown
+ro.product.manufacturer,unknown
+ro.product.cpu.abi,unknown
+ro.build.au_rev,unknown
+ro.build.description,unknown
+ro.build.version.sdk,unknown
+Meta_Build_ID,unknown
+OS_Type,unknown
+
+,, ,CPU_timing(10 runs), , , ,CPU_ub_float_timing(10 runs), , , 
+,, ,avg (us),max (us),min (us),runtime,avg (us),max (us),min (us),runtime
+
+,, ,CPU_mem(10 runs), , , ,CPU_ub_float_mem(10 runs), , , 
+,, ,avg (kB),max (kB),min (kB),runtime,avg (kB),max (kB),min (kB),runtime
+,,pss,21134,49224,15089,NA,15106,15226,15089,NA
+,,prv_dirty,8261,18052,6592,NA,6598,6616,6596,NA
+,,prv_clean,12646,31552,8276,NA,8290,8360,8276,NA
+

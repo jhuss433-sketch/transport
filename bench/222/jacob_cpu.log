@@ -1,0 +1,259 @@
+2026-11-12 18:45:02,171 - INFO - snpe_bench: Running snpe_bench with {'config_file': 'configs/jacob_222.json', 'output_base_dir_override': None, 'device_id_override': None, 'host_name': None, 'run_on_all_connected_devices_override': False, 'device_os_type_override': 'le64_oe_gcc8.2', 'debug': False, 'sleep': 0, 'userbuffer_mode': '', 'perfprofile': '', 'profilinglevel': '', 'generate_json': False, 'profile_mode': False, 'enable_init_cache': False}
+2026-11-12 18:45:02,171 - INFO - snpebm.snpebm_config: Overriding device id to ['c2a27d47'], instead of ['c2a27d47'] from config file
+2026-11-12 18:45:02,206 - WARNING - snpebm.snpebm_config: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:45:02,206 - WARNING - snpebm.snpebm_config: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:45:02,172 - INFO - snpe_bench: 
+--CONFIG--
+  Name:jacob_222 
+  HostRootPath:/workspace/shared/bench/222/results 
+  HostResultsDir:/workspace/shared/bench/222/jacob_222 
+  Devices:['c2a27d47'] 
+  DevicePath:/data/local/tmp/snpebm_222
+  HostName:localhost
+  Runs:10
+  Model:Name:jacob_222
+  Model:Dlc:/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+  Model:Data:['/workspace/shared/bench/222/subsets/test20']
+  Model:UDO:None
+  Model:InputDimensions:[]
+  Runtimes:['CPU', 'CPU_ub_float']
+  Architectures:['aarch64']
+  Compiler:gcc8.2
+  C++ Standard Library:None
+  Measurements:['timing', 'mem']
+  PerfProfile:high_performance
+  ProfilingLevel:basic
+  CpuFallback:False
+  PlatformOptions:[]
+  UBFloatOutput:False
+  BufferTypes:['float', 'ub_float']
+--END CONFIG--
+
+2026-11-12 18:45:05,139 - INFO - snpebm.snpebm_md5: md5 command to be used: /usr/bin/md5sum
+2026-11-12 18:45:05,139 - INFO - snpebm.snpebm_md5: Perform MD5 check on files on device
+2026-11-12 18:45:05,430 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libQnnSaver.so, copy from host again
+2026-11-12 18:45:09,461 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libQnnSystem.so, copy from host again
+2026-11-12 18:45:12,520 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libQnnSaver.so, copy from host again
+2026-11-12 18:45:15,163 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libQnnSystem.so, copy from host again
+2026-11-12 18:45:15,886 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libCalculator_skel.so, copy from host again
+2026-11-12 18:45:16,638 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libQnnSaver.so, copy from host again
+2026-11-12 18:45:18,234 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libQnnSystem.so, copy from host again
+2026-11-12 18:45:18,973 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libCalculator_skel.so, copy from host again
+2026-11-12 18:45:20,153 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libQnnSaver.so, copy from host again
+2026-11-12 18:45:22,163 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libQnnSystem.so, copy from host again
+2026-11-12 18:45:23,013 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libCalculator_skel.so, copy from host again
+2026-11-12 18:45:23,724 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libQnnSaver.so, copy from host again
+2026-11-12 18:45:25,294 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libQnnSystem.so, copy from host again
+2026-11-12 18:45:26,042 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libCalculator_skel.so, copy from host again
+2026-11-12 18:45:27,463 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libQnnSaver.so, copy from host again
+2026-11-12 18:45:28,707 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libQnnSystem.so, copy from host again
+2026-11-12 18:45:29,855 - INFO - snpebm.snpebm_md5: md5 does not match for /data/local/tmp/snpebm_222/artifacts/aarch64-oe-linux-gcc8.2/lib/libCalculator_skel.so, copy from host again
+2026-11-12 18:45:37,272 - INFO - snpe_bench: Running on CPU_timing
+2026-11-12 18:45:37,272 - INFO - snpe_bench: Run 1
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:45:38,424 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run1/SNPEDiag_0.log
+2026-11-12 18:45:38,425 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run1/SNPEDiag_0.log'])
+2026-11-12 18:45:38,458 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:45:38,458 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:45:38,459 - INFO - snpe_bench: Run 2
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:45:39,549 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run2/SNPEDiag_0.log
+2026-11-12 18:45:39,550 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run2/SNPEDiag_0.log'])
+2026-11-12 18:45:39,583 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:45:39,583 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:45:39,583 - INFO - snpe_bench: Run 3
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:45:40,720 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run3/SNPEDiag_0.log
+2026-11-12 18:45:40,720 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run3/SNPEDiag_0.log'])
+2026-11-12 18:45:40,754 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:45:40,754 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:45:40,754 - INFO - snpe_bench: Run 4
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:45:41,817 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run4/SNPEDiag_0.log
+2026-11-12 18:45:41,817 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run4/SNPEDiag_0.log'])
+2026-11-12 18:45:41,847 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:45:41,847 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:45:41,847 - INFO - snpe_bench: Run 5
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:45:43,063 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run5/SNPEDiag_0.log
+2026-11-12 18:45:43,063 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run5/SNPEDiag_0.log'])
+2026-11-12 18:45:43,094 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:45:43,095 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:45:43,095 - INFO - snpe_bench: Run 6
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:45:44,268 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run6/SNPEDiag_0.log
+2026-11-12 18:45:44,268 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run6/SNPEDiag_0.log'])
+2026-11-12 18:45:44,299 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:45:44,299 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:45:44,300 - INFO - snpe_bench: Run 7
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:45:45,373 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run7/SNPEDiag_0.log
+2026-11-12 18:45:45,373 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run7/SNPEDiag_0.log'])
+2026-11-12 18:45:45,409 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:45:45,409 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:45:45,410 - INFO - snpe_bench: Run 8
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:45:46,614 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run8/SNPEDiag_0.log
+2026-11-12 18:45:46,614 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run8/SNPEDiag_0.log'])
+2026-11-12 18:45:46,649 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:45:46,649 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:45:46,649 - INFO - snpe_bench: Run 9
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:45:47,785 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run9/SNPEDiag_0.log
+2026-11-12 18:45:47,785 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run9/SNPEDiag_0.log'])
+2026-11-12 18:45:47,820 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:45:47,820 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:45:47,820 - INFO - snpe_bench: Run 10
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:45:49,015 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run10/SNPEDiag_0.log
+2026-11-12 18:45:49,015 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run10/SNPEDiag_0.log'])
+2026-11-12 18:45:49,048 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:45:49,048 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:45:49,048 - INFO - snpe_bench: Running on CPU_mem
+2026-11-12 18:45:49,048 - INFO - snpe_bench: Run 1
+2026-11-12 18:45:49,481 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:45:49,481 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:45:52,355 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:45:52,831 - INFO - snpe_bench: Run 2
+2026-11-12 18:45:53,245 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:45:53,245 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:45:53,796 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:45:54,238 - INFO - snpe_bench: Run 3
+2026-11-12 18:45:54,703 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:45:54,703 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:45:55,221 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:45:55,752 - INFO - snpe_bench: Run 4
+2026-11-12 18:45:56,192 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:45:56,193 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:45:56,714 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:45:57,194 - INFO - snpe_bench: Run 5
+2026-11-12 18:45:57,619 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:45:57,619 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:45:58,116 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:45:58,634 - INFO - snpe_bench: Run 6
+2026-11-12 18:45:59,081 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:45:59,081 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:45:59,566 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:46:00,107 - INFO - snpe_bench: Run 7
+2026-11-12 18:46:00,549 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:46:00,549 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:46:01,071 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:46:01,536 - INFO - snpe_bench: Run 8
+2026-11-12 18:46:01,957 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:46:01,957 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:46:02,474 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:46:02,971 - INFO - snpe_bench: Run 9
+2026-11-12 18:46:03,448 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:46:03,448 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:46:03,994 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:46:04,473 - INFO - snpe_bench: Run 10
+2026-11-12 18:46:04,936 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:46:04,936 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:46:05,445 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:46:05,898 - INFO - snpe_bench: Running on CPU_ub_float_timing
+2026-11-12 18:46:05,898 - INFO - snpe_bench: Run 1
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:46:07,071 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run1/SNPEDiag_0.log
+2026-11-12 18:46:07,071 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run1/SNPEDiag_0.log'])
+2026-11-12 18:46:07,105 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:46:07,105 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:46:07,106 - INFO - snpe_bench: Run 2
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:46:08,260 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run2/SNPEDiag_0.log
+2026-11-12 18:46:08,260 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run2/SNPEDiag_0.log'])
+2026-11-12 18:46:08,293 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:46:08,294 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:46:08,294 - INFO - snpe_bench: Run 3
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:46:09,398 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run3/SNPEDiag_0.log
+2026-11-12 18:46:09,398 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run3/SNPEDiag_0.log'])
+2026-11-12 18:46:09,431 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:46:09,431 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:46:09,432 - INFO - snpe_bench: Run 4
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:46:10,592 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run4/SNPEDiag_0.log
+2026-11-12 18:46:10,593 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run4/SNPEDiag_0.log'])
+2026-11-12 18:46:10,626 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:46:10,626 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:46:10,626 - INFO - snpe_bench: Run 5
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:46:11,792 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run5/SNPEDiag_0.log
+2026-11-12 18:46:11,792 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run5/SNPEDiag_0.log'])
+2026-11-12 18:46:11,826 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:46:11,826 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:46:11,826 - INFO - snpe_bench: Run 6
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:46:12,924 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run6/SNPEDiag_0.log
+2026-11-12 18:46:12,924 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run6/SNPEDiag_0.log'])
+2026-11-12 18:46:12,957 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:46:12,957 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:46:12,957 - INFO - snpe_bench: Run 7
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:46:14,076 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run7/SNPEDiag_0.log
+2026-11-12 18:46:14,076 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run7/SNPEDiag_0.log'])
+2026-11-12 18:46:14,110 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:46:14,110 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:46:14,110 - INFO - snpe_bench: Run 8
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:46:15,217 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run8/SNPEDiag_0.log
+2026-11-12 18:46:15,217 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run8/SNPEDiag_0.log'])
+2026-11-12 18:46:15,253 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:46:15,253 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:46:15,253 - INFO - snpe_bench: Run 9
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:46:16,428 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run9/SNPEDiag_0.log
+2026-11-12 18:46:16,428 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run9/SNPEDiag_0.log'])
+2026-11-12 18:46:16,461 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:46:16,461 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:46:16,461 - INFO - snpe_bench: Run 10
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:46:17,609 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run10/SNPEDiag_0.log
+2026-11-12 18:46:17,610 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU_ub_float/Run10/SNPEDiag_0.log'])
+2026-11-12 18:46:17,643 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:46:17,643 - WARNING - snpebm.snpebm_parser: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
+2026-11-12 18:46:17,643 - INFO - snpe_bench: Running on CPU_ub_float_mem
+2026-11-12 18:46:17,643 - INFO - snpe_bench: Run 1
+2026-11-12 18:46:18,084 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:46:18,084 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:46:18,574 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:46:19,039 - INFO - snpe_bench: Run 2
+2026-11-12 18:46:19,457 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:46:19,457 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:46:19,952 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:46:20,462 - INFO - snpe_bench: Run 3
+2026-11-12 18:46:20,905 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:46:20,906 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:46:21,434 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:46:21,918 - INFO - snpe_bench: Run 4
+2026-11-12 18:46:22,396 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:46:22,396 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:46:22,902 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:46:23,355 - INFO - snpe_bench: Run 5
+2026-11-12 18:46:23,780 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:46:23,780 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:46:24,302 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:46:24,780 - INFO - snpe_bench: Run 6
+2026-11-12 18:46:25,236 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:46:25,236 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:46:25,762 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:46:26,237 - INFO - snpe_bench: Run 7
+2026-11-12 18:46:26,663 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:46:26,663 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:46:27,191 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:46:27,663 - INFO - snpe_bench: Run 8
+2026-11-12 18:46:28,106 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:46:28,107 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:46:28,602 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:46:29,058 - INFO - snpe_bench: Run 9
+2026-11-12 18:46:29,496 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:46:29,497 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:46:30,036 - INFO - snpebm.snpebm_device: memory capture is terminated
+2026-11-12 18:46:30,505 - INFO - snpe_bench: Run 10
+2026-11-12 18:46:30,945 - INFO - snpebm.snpebm_device: starting memory capture in a parallel process
+2026-11-12 18:46:30,945 - INFO - snpebm.snpebm_device: Linux Embedded
+2026-11-12 18:46:31,497 - INFO - snpebm.snpebm_device: memory capture is terminated
+/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview: error while loading shared libraries: libunwind.so.1: cannot open shared object file: No such file or directory
+2026-11-12 18:46:31,982 - WARNING - snpebm.snpebm_parser: Failed to parse /workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run10/SNPEDiag_0.log
+2026-11-12 18:46:31,982 - WARNING - snpebm.snpebm_parser: CalledProcessError(127, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-diagview', '--input_log', '/workspace/shared/bench/222/jacob_222/2026-11-12_18:45:02/timing/CPU/Run10/SNPEDiag_0.log'])
+2026-11-12 18:46:32,015 - WARNING - snpebm.snpebm_config: Failed to parse /workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc
+2026-11-12 18:46:32,016 - WARNING - snpebm.snpebm_config: CalledProcessError(1, ['/workspace/shared/sdk/2.22.6.240515/bin/x86_64-linux-clang/snpe-dlc-info', '-i', '/workspace/shared/conversion22/BenchMark_2_22/models/jacob_best_model_2.22.dlc'])
